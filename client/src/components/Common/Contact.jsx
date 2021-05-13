@@ -120,7 +120,7 @@ class Contact extends React.Component {
                 <ul>
                   <li>
                     <i className="fa fa-map-marker"></i>
-                    1-95/2/5, Plot No.3 , Guttala Begumpeta ,near madhapur Hyderabad, Telangana 500018 India.
+                    Flat no 202 , Sweet Home Venus, Sri Sai Nagar, near Madhapur Hyderabad, Telangana 500018 India.
                   </li>
 
                   <li>
@@ -133,7 +133,7 @@ class Contact extends React.Component {
                   </li>
                   <li>
                     <i className="fa fa-phone"></i>
-                    <Link to="#">7989692571</Link>
+                    <Link to="#">7013457590, 7989692571</Link>
                   </li>
                 </ul>
               </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import Particles from 'react-particles-js';
+// import Particles from 'react-particles-js';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const particleOpt = {
@@ -32,9 +32,9 @@ class MainBanner extends React.Component {
     render(){
         return (
             <div id="home" className="main-banner item-bg-one">
-                <Particles
+                {/* <Particles
                     params={{...particleOpt}}
-                />
+                /> */}
                 <div className="d-table">
                     <div className="d-table-cell">
                         <div className="container">

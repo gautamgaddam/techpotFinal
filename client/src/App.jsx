@@ -16,6 +16,7 @@ import HomeEleven from "./components/Pages/HomeEleven"
 import HomeTwelve from "./components/Pages/HomeTwelve"
 import Blog from "./components/Pages/Blog"
 import BlogDetails from "./components/Pages/BlogDetails"
+import Vaccine from "./components/Pages/Vaccine"
 
 class App extends React.Component {
   state = {
@@ -42,11 +43,12 @@ class App extends React.Component {
   }
 
   render() {
+    const location = window.location.href.split("/").pop()
     return (
       <Router onUpdate={this.hashLinkScroll}>
         <React.Fragment>
           {this.state.loading ? <Preloader /> : ""}
-          <Navigation />
+          {location === "vaccine-finder" ? null : <Navigation />}
           <Route path="/home-one" exact component={HomeOne} />
           <Route path="/home-two" exact component={HomeTwo} />
           <Route path="/home-three" exact component={HomeThree} />
@@ -61,6 +63,7 @@ class App extends React.Component {
           <Route path="/" exact component={HomeTwelve} />
           <Route path="/blog" exact component={Blog} />
           <Route path="/blog-details" exact component={BlogDetails} />
+          <Route path="/vaccine-finder" exact component={Vaccine} />
         </React.Fragment>
       </Router>
     )

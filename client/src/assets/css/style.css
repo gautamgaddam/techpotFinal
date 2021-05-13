@@ -53,7 +53,18 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-bottom: 0;
   font-weight: 400;
   line-height: 1;
@@ -82,11 +93,12 @@ p {
 a {
   color: #222222;
   text-decoration: none;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   color: #ff2c57;
   text-decoration: none;
 }
@@ -113,13 +125,14 @@ img {
   background: #f6f6f6;
 }
 
+
 /*Btn Btn-Primary*/
 .btn {
   padding: 9px 25px;
   font-size: 16px;
   border-radius: 30px;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .btn-primary {
@@ -128,29 +141,36 @@ img {
   border-color: #ff2c57;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary.disabled:hover, .btn-primary.disabled:focus {
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.disabled:hover,
+.btn-primary.disabled:focus {
   color: #ff2c57;
   background-color: #fff;
   border-color: #ff2c57;
 }
 
-.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active {
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active {
   color: #fff;
   background-color: #ff2c57;
   border-color: #ff2c57;
 }
 
-.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus {
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus {
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
-.btn-primary.focus, .btn-primary:focus {
+.btn-primary.focus,
+.btn-primary:focus {
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
-.btn-primary.disabled, .btn-primary:disabled {
+.btn-primary.disabled,
+.btn-primary:disabled {
   color: #fff;
   background-color: #ff2c57;
   border-color: #ff2c57;
@@ -164,16 +184,17 @@ img {
   position: relative;
 }
 
-.section-title::before, .section-title::after {
-  content: '';
+.section-title::before,
+.section-title::after {
+  content: "";
   position: absolute;
   width: 3px;
   height: 100%;
   left: 10px;
   top: 0;
   background: #ff2c57;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .section-title::after {
@@ -227,7 +248,7 @@ img {
   border-color: #dddddd;
   outline: 0;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 /* Owl Carousel Button */
@@ -251,8 +272,8 @@ img {
   background: transparent !important;
   border-radius: 50% !important;
   border: 2px solid #dddddd !important;
-  -webkit-transition: .4s !important;
-  transition: .4s !important;
+  -webkit-transition: 0.4s !important;
+  transition: 0.4s !important;
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
@@ -282,8 +303,8 @@ img {
   border-radius: 50% !important;
   font-size: 30px;
   color: #ffffff !important;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .owl-theme .owl-nav [class*="owl-"]:hover {
@@ -315,7 +336,7 @@ Preloader CSS
   height: 60px;
   position: absolute;
   -webkit-transform: rotateZ(45deg);
-          transform: rotateZ(45deg);
+  transform: rotateZ(45deg);
   top: 50%;
   right: 0;
   margin: -60px auto 0;
@@ -327,11 +348,11 @@ Preloader CSS
   height: 50%;
   position: relative;
   -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .preloader .folding-cube .cube::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -339,73 +360,79 @@ Preloader CSS
   height: 100%;
   background-color: #ff2c57;
   -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
-          animation: sk-foldCubeAngle 2.4s infinite linear both;
+  animation: sk-foldCubeAngle 2.4s infinite linear both;
   -webkit-transform-origin: 100% 100%;
-          transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
 }
 
 .preloader .folding-cube .cube2 {
   -webkit-transform: scale(1.1) rotateZ(90deg);
-          transform: scale(1.1) rotateZ(90deg);
+  transform: scale(1.1) rotateZ(90deg);
 }
 
 .preloader .folding-cube .cube2::before {
   -webkit-animation-delay: 0.3s;
-          animation-delay: 0.3s;
+  animation-delay: 0.3s;
 }
 
 .preloader .folding-cube .cube3 {
   -webkit-transform: scale(1.1) rotateZ(180deg);
-          transform: scale(1.1) rotateZ(180deg);
+  transform: scale(1.1) rotateZ(180deg);
 }
 
 .preloader .folding-cube .cube3::before {
   -webkit-animation-delay: 0.6s;
-          animation-delay: 0.6s;
+  animation-delay: 0.6s;
 }
 
 .preloader .folding-cube .cube4 {
   -webkit-transform: scale(1.1) rotateZ(270deg);
-          transform: scale(1.1) rotateZ(270deg);
+  transform: scale(1.1) rotateZ(270deg);
 }
 
 .preloader .folding-cube .cube4::before {
   -webkit-animation-delay: 0.9s;
-          animation-delay: 0.9s;
+  animation-delay: 0.9s;
 }
 
 @-webkit-keyframes sk-foldCubeAngle {
-  0%, 10% {
+  0%,
+  10% {
     -webkit-transform: perspective(140px) rotateX(-180deg);
-            transform: perspective(140px) rotateX(-180deg);
+    transform: perspective(140px) rotateX(-180deg);
     opacity: 0;
   }
-  25%, 75% {
+  25%,
+  75% {
     -webkit-transform: perspective(140px) rotateX(0deg);
-            transform: perspective(140px) rotateX(0deg);
+    transform: perspective(140px) rotateX(0deg);
     opacity: 1;
   }
-  90%, 100% {
+  90%,
+  100% {
     -webkit-transform: perspective(140px) rotateY(180deg);
-            transform: perspective(140px) rotateY(180deg);
+    transform: perspective(140px) rotateY(180deg);
     opacity: 0;
   }
 }
 
 @keyframes sk-foldCubeAngle {
-  0%, 10% {
+  0%,
+  10% {
     -webkit-transform: perspective(140px) rotateX(-180deg);
-            transform: perspective(140px) rotateX(-180deg);
+    transform: perspective(140px) rotateX(-180deg);
     opacity: 0;
   }
-  25%, 75% {
+  25%,
+  75% {
     -webkit-transform: perspective(140px) rotateX(0deg);
-            transform: perspective(140px) rotateX(0deg);
+    transform: perspective(140px) rotateX(0deg);
     opacity: 1;
   }
-  90%, 100% {
+  90%,
+  100% {
     -webkit-transform: perspective(140px) rotateY(180deg);
-            transform: perspective(140px) rotateY(180deg);
+    transform: perspective(140px) rotateY(180deg);
     opacity: 0;
   }
 }
@@ -433,9 +460,9 @@ Main Header CSS
   width: 100%;
   z-index: 999;
   -webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
-          box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
   -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
-          animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
   padding-top: 10px;
   padding-bottom: 10px;
   background: #ffffff !important;
@@ -454,7 +481,8 @@ Main Header CSS
   text-transform: lowercase;
 }
 
-.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
   color: #ffffff;
 }
 
@@ -473,11 +501,15 @@ Main Header CSS
   padding-left: 0;
 }
 
-.navbar-light .navbar-nav .nav-item .nav-link.active, .navbar-light .navbar-nav .nav-item .nav-link.show, .navbar-light .navbar-nav .nav-item .nav-link:hover, .navbar-light .navbar-nav .nav-item .nav-link:focus {
+.navbar-light .navbar-nav .nav-item .nav-link.active,
+.navbar-light .navbar-nav .nav-item .nav-link.show,
+.navbar-light .navbar-nav .nav-item .nav-link:hover,
+.navbar-light .navbar-nav .nav-item .nav-link:focus {
   color: #ff2c57;
 }
 
-.navbar-light .navbar-nav .active .nav-link, .navbar-light .navbar-nav.show .nav-link {
+.navbar-light .navbar-nav .active .nav-link,
+.navbar-light .navbar-nav.show .nav-link {
   color: #ff2c57;
 }
 
@@ -491,11 +523,15 @@ Main Header CSS
   padding-left: 0;
 }
 
-.navbar-light.header-sticky.is-sticky .navbar-nav .nav-link.active, .navbar-light.header-sticky.is-sticky .navbar-nav .nav-link.show, .navbar-light.header-sticky.is-sticky .navbar-nav .nav-link:hover, .navbar-light.header-sticky.is-sticky .navbar-nav .nav-link:focus {
+.navbar-light.header-sticky.is-sticky .navbar-nav .nav-link.active,
+.navbar-light.header-sticky.is-sticky .navbar-nav .nav-link.show,
+.navbar-light.header-sticky.is-sticky .navbar-nav .nav-link:hover,
+.navbar-light.header-sticky.is-sticky .navbar-nav .nav-link:focus {
   color: #ff2c57;
 }
 
-.navbar-light.header-sticky.is-sticky .navbar-nav .active .nav-link, .navbar-light.header-sticky.is-sticky .navbar-nav .show .nav-link {
+.navbar-light.header-sticky.is-sticky .navbar-nav .active .nav-link,
+.navbar-light.header-sticky.is-sticky .navbar-nav .show .nav-link {
   color: #ff2c57;
 }
 
@@ -514,14 +550,14 @@ Main Banner CSS
 }
 
 .main-banner::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
   background: #000;
-  opacity: .77;
+  opacity: 0.77;
 }
 
 .item-bg-one {
@@ -579,7 +615,8 @@ Main Banner CSS
   margin-bottom: 30px;
 }
 
-.main-banner-text .btn:hover, .main-banner-text .btn:focus {
+.main-banner-text .btn:hover,
+.main-banner-text .btn:focus {
   border-color: #ffffff;
 }
 
@@ -589,7 +626,8 @@ Main Banner CSS
   margin-left: 10px;
 }
 
-.main-banner-text .view-work:hover, .main-banner-text .view-work:focus {
+.main-banner-text .view-work:hover,
+.main-banner-text .view-work:focus {
   border-color: #ff2c57;
   background: #ff2c57;
   color: #ffffff;
@@ -649,7 +687,7 @@ Creative Banner CSS
 }
 
 .creative-banner-two::after {
-  content: '';
+  content: "";
   position: absolute;
   border-left: 50vw solid #ffffff;
   border-top: 160px solid transparent;
@@ -667,7 +705,7 @@ Creative Banner CSS
 }
 
 .creative-banner-three::before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -25px;
   left: 0;
@@ -700,19 +738,19 @@ Welcome Area CSS
 .single-box {
   text-align: center;
   -webkit-box-shadow: 0 0 30px 0 rgba(67, 67, 67, 0.15);
-          box-shadow: 0 0 30px 0 rgba(67, 67, 67, 0.15);
+  box-shadow: 0 0 30px 0 rgba(67, 67, 67, 0.15);
   padding: 30px 20px;
   position: relative;
   overflow: hidden;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .single-box:hover {
   -webkit-box-shadow: unset;
-          box-shadow: unset;
+  box-shadow: unset;
   -webkit-transform: translateX(5px);
-          transform: translateX(5px);
+  transform: translateX(5px);
 }
 
 .single-box .icon {
@@ -736,7 +774,7 @@ Welcome Area CSS
   line-height: 44px;
   text-align: center;
   -webkit-box-shadow: 0px 0px 25px 0px rgba(0, 27, 103, 0.3);
-          box-shadow: 0px 0px 25px 0px rgba(0, 27, 103, 0.3);
+  box-shadow: 0px 0px 25px 0px rgba(0, 27, 103, 0.3);
   border-radius: 50% 0 0 0;
   opacity: 0;
   visibility: hidden;
@@ -786,14 +824,15 @@ About Area CSS
   border-radius: 50%;
 }
 
-.about-video .video-btn a::before, .about-video .video-btn a::after {
+.about-video .video-btn a::before,
+.about-video .video-btn a::after {
   content: "";
   position: absolute;
   z-index: 0;
   left: 50%;
   top: 50%;
   -webkit-transform: translateX(-50%) translateY(-50%);
-          transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
   display: block;
   width: 88px;
   height: 88px;
@@ -801,7 +840,7 @@ About Area CSS
   -webkit-transition: all 200ms;
   transition: all 200ms;
   -webkit-animation: pulse-border 1500ms ease-out infinite;
-          animation: pulse-border 1500ms ease-out infinite;
+  animation: pulse-border 1500ms ease-out infinite;
   border: 10px solid #fff;
 }
 
@@ -847,7 +886,8 @@ About Area CSS
   padding-left: 0;
 }
 
-.about-addax .section-title::before, .about-addax .section-title::after {
+.about-addax .section-title::before,
+.about-addax .section-title::after {
   display: none;
 }
 
@@ -893,7 +933,7 @@ Who We Are Area CSS
   position: relative;
   overflow: hidden;
   -webkit-box-shadow: 0 20px 40px 0 rgba(28, 30, 35, 0.2);
-          box-shadow: 0 20px 40px 0 rgba(28, 30, 35, 0.2);
+  box-shadow: 0 20px 40px 0 rgba(28, 30, 35, 0.2);
   background: #ffffff;
   padding: 50px 30px;
   -webkit-transition: all 0.5s ease-in-out 0s;
@@ -904,14 +944,14 @@ Who We Are Area CSS
   background: #ff2c57;
   color: #ffffff;
   -webkit-transform: translateX(5px);
-          transform: translateX(5px);
+  transform: translateX(5px);
 }
 
 .single-who-we-are i {
   font-size: 50px;
   color: #ff2c57;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .single-who-we-are:hover i {
@@ -926,8 +966,8 @@ Who We Are Area CSS
 }
 
 .single-who-we-are p {
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .single-who-we-are:hover p {
@@ -941,8 +981,8 @@ Who We Are Area CSS
   line-height: 180px;
   position: absolute;
   right: 0;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .single-who-we-are:hover span {
@@ -979,7 +1019,8 @@ Strategy Area CSS
   padding-left: 0;
 }
 
-.about-strategy .section-title::before, .about-strategy .section-title::after {
+.about-strategy .section-title::before,
+.about-strategy .section-title::after {
   display: none;
 }
 
@@ -1017,21 +1058,22 @@ CTR Area CSS
 }
 
 .ctr-area::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
   background: #000000;
-  opacity: .88;
+  opacity: 0.88;
 }
 
 .ctr-area .section-title {
   padding-left: 0;
 }
 
-.ctr-area .section-title::after, .ctr-area .section-title::before {
+.ctr-area .section-title::after,
+.ctr-area .section-title::before {
   display: none;
 }
 
@@ -1055,13 +1097,15 @@ CTR Area CSS
   margin-left: 10px;
 }
 
-.ctr-area .view-work:hover, .ctr-area .view-work:focus {
+.ctr-area .view-work:hover,
+.ctr-area .view-work:focus {
   border-color: #ff2c57;
   background: #ff2c57;
   color: #ffffff;
 }
 
-.ctr-area .btn:hover, .ctr-area .btn:focus {
+.ctr-area .btn:hover,
+.ctr-area .btn:focus {
   border-color: #ffffff;
 }
 
@@ -1074,7 +1118,8 @@ Skill Area CSS
   padding-left: 0;
 }
 
-.about-skill .section-title::before, .about-skill .section-title::after {
+.about-skill .section-title::before,
+.about-skill .section-title::after {
   display: none;
 }
 
@@ -1088,17 +1133,17 @@ Skill Area CSS
   background: #fff;
   border-radius: 5px;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   margin-bottom: 30px;
   overflow: visible;
 }
 
 .about-skill .progress .progress-bar {
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   position: relative;
   -webkit-animation: animate-positive 2s;
-          animation: animate-positive 2s;
+  animation: animate-positive 2s;
   background: #ff2c57;
   border-radius: 5px;
 }
@@ -1149,14 +1194,15 @@ Skill Area CSS
   border-radius: 50%;
 }
 
-.skill-video .video-btn a::before, .skill-video .video-btn a::after {
+.skill-video .video-btn a::before,
+.skill-video .video-btn a::after {
   content: "";
   position: absolute;
   z-index: 0;
   left: 50%;
   top: 50%;
   -webkit-transform: translateX(-50%) translateY(-50%);
-          transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
   display: block;
   width: 88px;
   height: 88px;
@@ -1164,7 +1210,7 @@ Skill Area CSS
   -webkit-transition: all 200ms;
   transition: all 200ms;
   -webkit-animation: pulse-border 1500ms ease-out infinite;
-          animation: pulse-border 1500ms ease-out infinite;
+  animation: pulse-border 1500ms ease-out infinite;
   border: 10px solid #ffffff;
 }
 
@@ -1215,14 +1261,14 @@ Fun Facts Area CSS
 }
 
 .funFacts-area::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
   background: #000000;
-  opacity: .77;
+  opacity: 0.77;
 }
 
 .funFact {
@@ -1273,22 +1319,22 @@ Team Area CSS
   margin-left: 15px;
   padding-top: 20px;
   z-index: 1;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .our-team .team-content .title {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 6px;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .our-team .team-content .post {
   color: #666666;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .our-team:hover .team-content .title {
@@ -1311,8 +1357,8 @@ Team Area CSS
   height: 100%;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(20%, rgba(0, 0, 0, 0.9)), color-stop(80%, rgba(0, 0, 0, 0.3)));
   background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 20%, rgba(0, 0, 0, 0.3) 80%);
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
   opacity: 0;
   visibility: hidden;
 }
@@ -1324,9 +1370,9 @@ Team Area CSS
   top: 50%;
   margin-top: -50px;
   -webkit-transform: translateY(-35px);
-          transform: translateY(-35px);
-  -webkit-transition: .4s;
-  transition: .4s;
+  transform: translateY(-35px);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .our-team .social ul li {
@@ -1355,7 +1401,7 @@ Team Area CSS
 
 .our-team:hover .social ul {
   -webkit-transform: translateY(0);
-          transform: translateY(0);
+  transform: translateY(0);
 }
 
 /*
@@ -1372,7 +1418,7 @@ How We Work CSS
 
 .single-how-work {
   -webkit-box-shadow: 0 0 30px 0 rgba(67, 67, 67, 0.15);
-          box-shadow: 0 0 30px 0 rgba(67, 67, 67, 0.15);
+  box-shadow: 0 0 30px 0 rgba(67, 67, 67, 0.15);
   background: #ffffff;
   padding: 35px;
   border-radius: 5px;
@@ -1382,7 +1428,7 @@ How We Work CSS
 
 .single-how-work:hover {
   -webkit-transform: translateX(5px);
-          transform: translateX(5px);
+  transform: translateX(5px);
 }
 
 .single-how-work h3 {
@@ -1413,22 +1459,22 @@ Services Area CSS
 .single-services {
   margin-bottom: 30px;
   -webkit-box-shadow: 0 0 30px 0 rgba(67, 67, 67, 0.15);
-          box-shadow: 0 0 30px 0 rgba(67, 67, 67, 0.15);
+  box-shadow: 0 0 30px 0 rgba(67, 67, 67, 0.15);
   text-align: center;
   position: relative;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .single-services:hover {
   -webkit-box-shadow: unset;
-          box-shadow: unset;
+  box-shadow: unset;
   -webkit-transform: translateX(5px);
-          transform: translateX(5px);
+  transform: translateX(5px);
 }
 
 .single-services::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   bottom: 0;
@@ -1437,8 +1483,8 @@ Services Area CSS
   height: 50px;
   border-bottom: 2px solid #ff2c57;
   opacity: 0;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .single-services:hover::before {
@@ -1452,14 +1498,14 @@ Services Area CSS
 }
 
 .single-services .services-img::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
   background: #000000;
-  opacity: .66;
+  opacity: 0.66;
 }
 
 .single-services .services-img .icon {
@@ -1478,8 +1524,8 @@ Services Area CSS
   font-size: 30px;
   color: #ffffff;
   border-radius: 50%;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .single-services:hover i {
@@ -1543,14 +1589,16 @@ Why We Are Different CSS
   margin-bottom: 0;
   cursor: pointer;
   background: transparent;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
   border: 1px solid #dddddd;
   border-radius: 5px;
   font-size: 18px;
 }
 
-.tabset label:hover, .tabset label:focus, .tabset label.checked {
+.tabset label:hover,
+.tabset label:focus,
+.tabset label.checked {
   background-color: #ff2c57;
   color: #ffffff;
 }
@@ -1604,7 +1652,7 @@ Work Area CSS
 .shorting-menu {
   display: inline-block;
   -webkit-box-shadow: 0 0 30px 0 rgba(67, 67, 67, 0.15);
-          box-shadow: 0 0 30px 0 rgba(67, 67, 67, 0.15);
+  box-shadow: 0 0 30px 0 rgba(67, 67, 67, 0.15);
   padding: 18px 20px;
   border-radius: 50px;
 }
@@ -1616,14 +1664,15 @@ Work Area CSS
   text-transform: capitalize;
   font-size: 16px;
   cursor: pointer;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
   border-radius: 30px;
   color: #000000;
   margin: 0 4px;
 }
 
-.shorting-menu .filter.active, .shorting-menu .filter:hover {
+.shorting-menu .filter.active,
+.shorting-menu .filter:hover {
   background: #ff2c57;
   color: #ffffff;
 }
@@ -1639,7 +1688,7 @@ Work Area CSS
 }
 
 .single-work::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 15px;
   width: 95%;
@@ -1648,8 +1697,8 @@ Work Area CSS
   left: 14px;
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .single-work:hover::before {
@@ -1657,7 +1706,7 @@ Work Area CSS
   width: 93%;
   height: 91%;
   left: 21px;
-  opacity: .66;
+  opacity: 0.66;
   visibility: visible;
 }
 
@@ -1672,8 +1721,8 @@ Work Area CSS
   padding-bottom: 20px;
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .single-work .work-content h4 {
@@ -1706,8 +1755,8 @@ Work Area CSS
   opacity: 0;
   visibility: hidden;
   border: 1px solid #ffffff;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .single-work .popup-btn:hover {
@@ -1733,9 +1782,9 @@ Pricing Area CSS
   background-image: url("../images/patt.png");
   background-position: center center;
   -webkit-box-shadow: 0 0 30px 0 rgba(67, 67, 67, 0.15);
-          box-shadow: 0 0 30px 0 rgba(67, 67, 67, 0.15);
-  -webkit-transition: .4s;
-  transition: .4s;
+  box-shadow: 0 0 30px 0 rgba(67, 67, 67, 0.15);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .pricingTable:hover {
@@ -1754,7 +1803,7 @@ Pricing Area CSS
   left: 0;
   right: 0;
   -webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
-          clip-path: polygon(50% 100%, 0 0, 100% 0);
+  clip-path: polygon(50% 100%, 0 0, 100% 0);
 }
 
 .pricingTable .title {
@@ -1846,18 +1895,19 @@ FAQ Area CSS
   border-top: none;
   background: #ffffff;
   -webkit-box-shadow: 0 0 30px 0 rgba(67, 67, 67, 0.15);
-          box-shadow: 0 0 30px 0 rgba(67, 67, 67, 0.15);
+  box-shadow: 0 0 30px 0 rgba(67, 67, 67, 0.15);
   margin-bottom: 10px;
 }
 
 .accordion__item .accordion__button {
   background-color: #ffffff;
   color: #000000;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
-.accordion__item .accordion__button:hover, .accordion__item .accordion__button:focus {
+.accordion__item .accordion__button:hover,
+.accordion__item .accordion__button:focus {
   background-color: #ff2c57;
   color: #ffffff;
 }
@@ -1865,7 +1915,7 @@ FAQ Area CSS
 .accordion__item .accordion__panel {
   padding: 20px;
   -webkit-animation: fadein 0.35s ease-in;
-          animation: fadein 0.35s ease-in;
+  animation: fadein 0.35s ease-in;
   border-top: 1px solid #eeeeee;
 }
 
@@ -1884,7 +1934,7 @@ Testimonials Area CSS
 
 .single-feedback {
   -webkit-box-shadow: 0 0 30px 0 rgba(67, 67, 67, 0.15);
-          box-shadow: 0 0 30px 0 rgba(67, 67, 67, 0.15);
+  box-shadow: 0 0 30px 0 rgba(67, 67, 67, 0.15);
   background-image: url("../images/patt.png");
   padding: 30px;
   margin-bottom: 30px;
@@ -1918,21 +1968,21 @@ Testimonials Area CSS
 .single-feedback .client-info .client-title h4 {
   font-size: 19px;
   font-weight: 500;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .single-feedback .client-info .client-title h5 {
   font-size: 15px;
   margin-top: 13px;
   color: #666666;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .single-feedback p {
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .single-feedback span {
@@ -1941,18 +1991,19 @@ Testimonials Area CSS
   bottom: 0;
   right: 0;
   color: rgba(0, 0, 0, 0.03);
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
   line-height: 0;
 }
 
 .single-feedback:hover {
   -webkit-transform: translateX(5px);
-          transform: translateX(5px);
+  transform: translateX(5px);
   background: #ff2c57;
 }
 
-.single-feedback:hover .client-title h4, .single-feedback:hover .client-title h5 {
+.single-feedback:hover .client-title h4,
+.single-feedback:hover .client-title h5 {
   color: #ffffff;
 }
 
@@ -1981,21 +2032,23 @@ Blog Area CSS
 }
 
 .single-blog-item::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
   background: #ffffff;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
-.single-blog-item span, .single-blog-item p, .single-blog-item h4 {
+.single-blog-item span,
+.single-blog-item p,
+.single-blog-item h4 {
   position: relative;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .single-blog-item h4 {
@@ -2019,16 +2072,18 @@ Blog Area CSS
   line-height: 44px;
   text-align: center;
   -webkit-box-shadow: 0px 0px 25px 0px rgba(0, 27, 103, 0.3);
-          box-shadow: 0px 0px 25px 0px rgba(0, 27, 103, 0.3);
+  box-shadow: 0px 0px 25px 0px rgba(0, 27, 103, 0.3);
   border-radius: 50% 0 0 0;
 }
 
 .single-blog-item:hover::before {
   background: #000000;
-  opacity: .66;
+  opacity: 0.66;
 }
 
-.single-blog-item:hover span, .single-blog-item:hover p, .single-blog-item:hover h4 a {
+.single-blog-item:hover span,
+.single-blog-item:hover p,
+.single-blog-item:hover h4 a {
   color: #ffffff;
 }
 
@@ -2069,7 +2124,7 @@ Subscribe Area CSS
   margin-left: auto;
   margin-right: auto;
   -webkit-box-shadow: 0 0 30px 0 rgba(67, 67, 67, 0.15);
-          box-shadow: 0 0 30px 0 rgba(67, 67, 67, 0.15);
+  box-shadow: 0 0 30px 0 rgba(67, 67, 67, 0.15);
   background: #ffffff;
   padding: 35px;
   border-radius: 5px;
@@ -2087,7 +2142,7 @@ Subscribe Area CSS
 
 .newsletter form .form-control {
   -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
   border: none;
   height: 75px;
   border-radius: 50px;
@@ -2124,7 +2179,7 @@ Contact Area CSS
 
 .contact-info {
   -webkit-box-shadow: 0 0 30px 0 rgba(67, 67, 67, 0.15);
-          box-shadow: 0 0 30px 0 rgba(67, 67, 67, 0.15);
+  box-shadow: 0 0 30px 0 rgba(67, 67, 67, 0.15);
   background: #ffffff;
   padding: 30px;
   border-top: 3px solid #ff2c57;
@@ -2183,7 +2238,8 @@ Contact Area CSS
   border-radius: 50%;
 }
 
-.contact-info .follow-us li a:hover, .contact-info .follow-us li a:focus {
+.contact-info .follow-us li a:hover,
+.contact-info .follow-us li a:focus {
   background: #ff2c57;
   color: #ffffff;
   border-color: #ff2c57;
@@ -2191,7 +2247,7 @@ Contact Area CSS
 
 .contact-form {
   -webkit-box-shadow: 0 0 30px 0 rgba(67, 67, 67, 0.15);
-          box-shadow: 0 0 30px 0 rgba(67, 67, 67, 0.15);
+  box-shadow: 0 0 30px 0 rgba(67, 67, 67, 0.15);
   padding: 40px 30px;
   border-top: 3px solid #ff2c57;
   border-bottom: 3px solid #ff2c57;
@@ -2238,14 +2294,14 @@ Page Title CSS
 }
 
 .page-title::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
   background: #000000;
-  opacity: .6;
+  opacity: 0.6;
 }
 
 .page-title h1 {
@@ -2294,7 +2350,7 @@ Blog Details Area CSS
 
 .blog-details {
   -webkit-box-shadow: 0 5px 10px rgba(0, 9, 128, 0.035), 0 7px 18px rgba(0, 9, 128, 0.05);
-          box-shadow: 0 5px 10px rgba(0, 9, 128, 0.035), 0 7px 18px rgba(0, 9, 128, 0.05);
+  box-shadow: 0 5px 10px rgba(0, 9, 128, 0.035), 0 7px 18px rgba(0, 9, 128, 0.05);
   background: #ffffff;
 }
 
@@ -2423,7 +2479,7 @@ Blog Details Area CSS
 
 .post-controls-buttons div a {
   -webkit-box-shadow: 0 5px 10px rgba(0, 9, 128, 0.035), 0 7px 18px rgba(0, 9, 128, 0.05);
-          box-shadow: 0 5px 10px rgba(0, 9, 128, 0.035), 0 7px 18px rgba(0, 9, 128, 0.05);
+  box-shadow: 0 5px 10px rgba(0, 9, 128, 0.035), 0 7px 18px rgba(0, 9, 128, 0.05);
   padding: 10px 20px;
   border-radius: 5px;
   background: #ffffff;
@@ -2441,7 +2497,7 @@ Blog Details Area CSS
 
 .post-comments .single-comment {
   -webkit-box-shadow: 0 5px 10px rgba(0, 9, 128, 0.035), 0 7px 18px rgba(0, 9, 128, 0.05);
-          box-shadow: 0 5px 10px rgba(0, 9, 128, 0.035), 0 7px 18px rgba(0, 9, 128, 0.05);
+  box-shadow: 0 5px 10px rgba(0, 9, 128, 0.035), 0 7px 18px rgba(0, 9, 128, 0.05);
   padding: 25px;
   margin-bottom: 25px;
   position: relative;
@@ -2489,7 +2545,7 @@ Blog Details Area CSS
 
 .leave-a-reply {
   -webkit-box-shadow: 0 5px 10px rgba(0, 9, 128, 0.035), 0 7px 18px rgba(0, 9, 128, 0.05);
-          box-shadow: 0 5px 10px rgba(0, 9, 128, 0.035), 0 7px 18px rgba(0, 9, 128, 0.05);
+  box-shadow: 0 5px 10px rgba(0, 9, 128, 0.035), 0 7px 18px rgba(0, 9, 128, 0.05);
   padding: 25px;
   background: #ffffff;
   margin-top: 50px;
@@ -2545,7 +2601,8 @@ Footer Area CSS
   font-size: 15px;
 }
 
-.footer-area ul li a:hover, .footer-area ul li a:focus {
+.footer-area ul li a:hover,
+.footer-area ul li a:focus {
   background: #ff2c57;
   color: #ffffff;
   border-color: #ff2c57;
@@ -2576,8 +2633,8 @@ Go Top CSS
   height: 40px;
   line-height: 39px;
   border-radius: 50%;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .go-top:hover {
@@ -2587,7 +2644,7 @@ Go Top CSS
 
 :invalid {
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 :-moz-submit-invalid {
@@ -2598,3 +2655,7 @@ Go Top CSS
   box-shadow: none;
 }
 /*# sourceMappingURL=style.css.map */
+
+.vaccine_finder_main {
+  background: black;
+}

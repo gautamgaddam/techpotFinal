@@ -23,7 +23,7 @@ class Strategy extends React.Component {
                   </h2>
                   <p>we as a innovators have started the company which can unleash the capability of Internet Of Things to every sector of human for thier well being with latest technologies</p>
                   <p>We Love to implement the stides of digitizing of education healthcare goverence and other every need of the people to reach every corner of the world </p>
-                  <p>We provide a platform for the freelancers enterperneurs to showcase there innovative ideas and where the cilents can find many resources who work as an epots for the company , we have the network of best minds to work for every scenarios</p>
+                  <p>We provide a platform for the freelancers entrepreneurs to showcase there innovative ideas and where the cilents can find many resources who work as an epots for the company , we have the network of best minds to work for every scenarios</p>
                 </div>
                 {/* <h2>Our <span>Features</span></h2>
                                 <ul>

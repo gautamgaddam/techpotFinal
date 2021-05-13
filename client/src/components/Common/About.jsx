@@ -22,7 +22,7 @@ class About extends React.Component {
             </h2>
             <p>The concept of TechPoT as a virtual company is that here the services we offer are delivered by the best resources around the world in the short time by cloud based services</p>
 
-            <p>Here we made a hybrid approach in establishing the company with traditional and vitual concepts by having our resources work around the clock.</p>
+            <p>Here we made a hybrid approach in establishing the company with traditional and virtual concepts by having our resources work around the clock.</p>
           </div>
 
           <div className="row">

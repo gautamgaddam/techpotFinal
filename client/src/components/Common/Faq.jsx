@@ -23,7 +23,7 @@ class Faq extends React.Component {
                       <AccordionItemButton>What is the concept of a virtual company?</AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
-                      <p>Vitual company is where we operate our best brains in a cloud network so, that we can reduce the cost for setting up a huge commercial space in this approach we can setup company in a small place and with less manpower and other basic utilities.</p>
+                      <p>Virtual company is where we operate our best brains in a cloud network so, that we can reduce the cost for setting up a huge commercial space in this approach we can setup company in a small place and with less manpower and other basic utilities.</p>
                     </AccordionItemPanel>
                   </AccordionItem>
                   <AccordionItem>

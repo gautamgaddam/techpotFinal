@@ -1,6 +1,6 @@
 import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import Particles from 'react-particles-js';
+// import Particles from 'react-particles-js';
 import Typewriter from 'typewriter-effect';
 
 const particleOpt = {
@@ -34,9 +34,9 @@ class MainBanner extends React.Component {
         return (
             <div id="home" className="main-banner item-bg-one">
                 <div className="creative-banner-three"></div>
-                <Particles
+                {/* <Particles
                     params={{...particleOpt}}
-                />
+                /> */}
                 <div className="d-table">
                     <div className="d-table-cell">
                         <div className="container">

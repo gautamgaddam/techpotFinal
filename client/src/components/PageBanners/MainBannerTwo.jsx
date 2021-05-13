@@ -69,13 +69,13 @@ MainBanner.defaultProps = {
     {
       heading: "We innovate next big thing",
       subHeading: "Nice To <span>Meet</span> You",
-      text: "Collabrate and become a epot for the innovative garden by Join Us.",
+      text: "Collabrate and become a epot for the innovative garden by joining us.",
       klasName: "item-bg-two",
     },
     {
       heading: "We Are Professional",
       subHeading: "Best <span>Digital</span> Experience",
-      text: "Collabrate and become a epot for the innovative garden by Join Us.",
+      text: "Collabrate and become a epot for the innovative garden by joining us.",
       klasName: "item-bg-one",
     },
   ],
